@@ -32,15 +32,14 @@ The cleaning was performed in Excel **column by column**, with the **process fil
 ---
 
 ## 📂 Repository Structure
-- `data/process/pulse360_cleaning_process.xlsx` → Excel file with dirty + cleaned data side by side.  
-- `data/cleaned/pulse360_cleaned.xlsx` → Final cleaned dataset (values only).  
+- `pulse360_Advertising_cleaning_process.xlsx` → Excel file with dirty + cleaned data side by side.  
+- `Cleaned_Pulse360_advertising_data.xlsx` → Final cleaned dataset (values only).  
 
 ---
 
 ## 🛠️ Tools Used
 - **Microsoft Excel**  
-  - Functions: `TRIM`, `SUBSTITUTE`, `TEXTSPLIT`, `VALUE`, `IF`, `PROPER`, `TEXT`.  
-  - Outlier detection with Z-score.  
+  - Functions: `TRIM`, `SUBSTITUTE`, `TEXTSPLIT`, `VALUE`, `IF`, `PROPER`, `TEXT`.    
   - Data validation and formatting.
 
 ---
