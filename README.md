@@ -19,9 +19,7 @@ The cleaning was performed in Excel **column by column**, with the **process fil
 - **Channels_Used** → Fixed naming inconsistencies (“Google AD’s” → “Google Ads”).
 - **Acquisition_Cost & ROI** → Removed `$` symbol and converted text to numeric values using `=VALUE()`.
 - **Date** → Standardized into `MM/DD/YYYY` format using `=TEXT()`.
-- **Missing Values** → Replaced blanks with default values where applicable (`=IF(ISBLANK(cell), 0, cell)`).
-- **Outliers** → Detected using Z-score:  
-  `Z = (value – mean) / stdev`, flagged values above `3` as outliers.
+- **Missing Values** → Replaced blanks with default values where applicable (`=IF(ISBLANK(cell), 0, cell)`)
 
 ---
 
